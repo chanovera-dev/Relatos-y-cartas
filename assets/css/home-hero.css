@@ -168,6 +168,7 @@
 
                                 & h2,
                                 & h3 {
+                                    font-weight: 400;
                                     text-shadow: var(--modern-text-shadow);
                                 }
 
