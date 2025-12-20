@@ -4,6 +4,8 @@ Relatos & Cartas es un tema de WordPress moderno, minimalista y centrado en el c
 
 Ha sido creado como base para otros proyectos, enlazando otros archivos en functions.php para extenderlo, y de manera similar agregar nuevas plantillas dentro de las carpetas 'loop', 'page', 'single', 'templates', etc.
 
+Este tema está basado en el tema stories v2.1, creado por ChanoDEV.
+
 ## Características Principales
 
 *   **Diseño "Mobile-First":** Maquetación responsiva utilizando CSS moderno (Nesting, Variables) y `theme.json`.
