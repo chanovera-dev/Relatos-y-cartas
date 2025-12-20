@@ -1,6 +1,6 @@
-# Stories V2.1 WordPress Theme
+# Relatos & Cartas WordPress Theme
 
-Stories V2.1 es un tema de WordPress moderno, minimalista y centrado en el contenido. Diseñado para ofrecer una experiencia de lectura inmersiva, cuenta con una arquitectura modular y optimizada.
+Relatos & Cartas es un tema de WordPress moderno, minimalista y centrado en el contenido. Diseñado para ofrecer una experiencia de lectura inmersiva, cuenta con una arquitectura modular y optimizada.
 
 Ha sido creado como base para otros proyectos, enlazando otros archivos en functions.php para extenderlo, y de manera similar agregar nuevas plantillas dentro de las carpetas 'loop', 'page', 'single', 'templates', etc.
 
@@ -67,7 +67,7 @@ stories-next/
 
 1.  Copia la carpeta del tema al directorio `/wp-content/themes/` de tu instalación de WordPress.
 2.  Accede al panel de administración > **Apariencia** > **Temas**.
-3.  Activa **Stories V2.1**.
+3.  Activa **Relatos & Cartas**.
 
 ## Desarrollo y Personalización
 
