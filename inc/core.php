@@ -652,7 +652,7 @@ function custom_menu($item_output, $item, $depth, $args)
         $text = '<a href="' . esc_url($item->url) . '">' . esc_html($item->title) . '</a>';
         $svg_icon = stories_get_icon('chevron-down');
 
-        return '<div class="wrapper-for-title">' . $text . '<button class="button-for-submenu" aria-lable="open submenu">' . $svg_icon . '</button></div>';
+        return '<div class="wrapper-for-title">' . $text . '<button class="button-for-submenu" aria-label="open submenu">' . $svg_icon . '</button></div>';
     }
 
     return $item_output;
