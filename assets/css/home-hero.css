@@ -33,7 +33,7 @@
                 width: 100%;
                 height: 100%;
                 z-index: 1;
-                background: transparent url("https://relatosycartas.com/wp-content/themes/stories-V2.1/assets/img/stars.webp") repeat;
+                background: transparent url("https://relatosycartas.com/wp-content/themes/Relatos-y-cartas/assets/img/stars.webp") repeat;
                 opacity: 0;
                 animation: opacity-stars .6s ease 1.5s forwards;
             }
@@ -60,7 +60,7 @@
                         width: 400px;
                         height: 350px;
                         position: absolute;
-                        background: transparent url("https://relatosycartas.com/wp-content/themes/stories-V2.1/assets/img/clouds.webp") 0 0 no-repeat;
+                        background: transparent url("https://relatosycartas.com/wp-content/themes/Relatos-y-cartas/assets/img/clouds.webp") 0 0 no-repeat;
                         background-size: 100%;
                     }
 
