@@ -34,23 +34,15 @@ Tags: blog, fondo-personalizado, colores-personalizados, logotipo-personalizado,
         & .content {
             position: relative;
             padding: 1.25rem 0;
-            display: flex;
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
             align-items: center;
             transition: padding .3s ease;
-
-            & .site-brand {
-                grid-column: 2 / 3;
-
-                & .custom-logo {
-                    width: auto;
-                    height: 46px;
-                }
-            }
 
             & .main-navigation {
                 position: absolute;
                 top: 100%;
-                right: 0;
+                left: 0;
                 z-index: 0;
                 height: 0;
                 overflow: hidden;
@@ -305,6 +297,7 @@ Tags: blog, fondo-personalizado, colores-personalizados, logotipo-personalizado,
                 background-color: transparent;
                 position: relative;
                 z-index: 3;
+                grid-column: 1 / 2;
 
                 & .bar {
                     position: relative;
@@ -372,12 +365,21 @@ Tags: blog, fondo-personalizado, colores-personalizados, logotipo-personalizado,
                 }
             }
 
+            & .site-brand {
+                grid-column: 2 / 3;
+
+                & .custom-logo {
+                    width: auto;
+                    height: 46px;
+                }
+            }
+
             .search-mobile__button {
                 background-color: transparent;
                 margin-left: auto;
+                grid-column: 3 / 4;
                 position: relative;
                 z-index: 5;
-                backdrop-filter: blur(2rem);
 
                 & .icon--wrapper {
                     position: relative;
@@ -429,8 +431,6 @@ Tags: blog, fondo-personalizado, colores-personalizados, logotipo-personalizado,
                 }
 
                 &.active {
-                    transform: translateX(48px);
-
                     & .icon--wrapper {
                         &::before {
                             max-width: 16px;

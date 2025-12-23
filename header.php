@@ -29,6 +29,12 @@
         <div class="glass-backdrop"></div>
         <div class="block">
             <div class="content">
+                <?php if (has_nav_menu('primary')): ?>
+                    <button id="menu-mobile__button" class="menu-mobile__button btn-pagination small-pagination"
+                        onclick="toggleMenuMobile()" aria-label="Open menu">
+                        <span class="bar"></span>
+                    </button>
+                <?php endif; ?>
                 <div class="site-brand">
                     <?php
                     $logo_path = get_template_directory() . '/assets/img/relatos-y-cartas--logotipo.svg';
@@ -69,12 +75,6 @@
                         <div class="bar"></div>
                     </div>
                 </button>
-                <?php if (has_nav_menu('primary')): ?>
-                    <button id="menu-mobile__button" class="menu-mobile__button btn-pagination small-pagination"
-                        onclick="toggleMenuMobile()" aria-label="Open menu">
-                        <span class="bar"></span>
-                    </button>
-                <?php endif; ?>
                 <form role="search" method="get" id="custom-searchform" class=""
                     action="<?php echo esc_url(home_url('/')); ?>">
                     <div class="section">
